@@ -12,7 +12,7 @@ services:
   #     - local-pgdata:/var/lib/postgresql/data
 
   pgadmin:
-    image: dpage/pgadmin4:8.8
+    image: dpage/pgadmin4
     restart: always
     ports:
       - "8888:80"
