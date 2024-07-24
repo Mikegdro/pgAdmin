@@ -12,6 +12,7 @@ services:
       PGADMIN_ENABLE_TLS: true
     volumes:
       - pgadmin-data:/var/lib/pgadmin
+      - certs:/data/coolify/proxy
 
 volumes:
   pgadmin-data:
